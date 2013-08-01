@@ -61,15 +61,17 @@
   <apn carrier="EHRPD - SPRINT test PAM" mcc="001" mnc="010" apn="pamsn" type="dun" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
   <!-- END modify Apn database for Sprint EHRPD support -->
   
-  <!-- Modify Apn database for Boost fota support -->
+  <!-- Modify Apn database for Boost support -->
+  <apn carrier="LTE - Boost MMS-Data" mcc="311" mnc="870" apn="n.boost.ispsn" type="default,mms" mmsc="http://mm.myboostmobile.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
+  <apn carrier="EHRPD - Boost MMS-Data" mcc="311" mnc="870" apn="n.boost.ispsn" type="default,mms" mmsc="http://mm.myboostmobile.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
   <apn carrier="LTE - Boost OTA" mcc="311" mnc="870" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
-  <apn carrier="LTE - Boost OTA" mcc="311" mnc="870" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
-  <!-- END modify Apn database for Boost LTE support -->
+  <apn carrier="EHRPD - Boost OTA" mcc="311" mnc="870" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
+  <!-- END modify Apn database for Boost support -->
   
-  <!-- Modify Apn database for Virgin fota support -->
+  <!-- Modify Apn database for Virgin support -->
   <apn carrier="LTE - Virgin OTA" mcc="311" mnc="490" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
   <apn carrier="LTE - Virgin OTA" mcc="311" mnc="490" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
-  <!-- END modify Apn database for Virgin LTE support -->
+  <!-- END modify Apn database for Virgin support -->
 
   <!-- Sprint LTE/eHRPD: These apns are added then programmatically removed in S3 LG8 build. -->
   <!--<apn carrier="LTE - SPRINT OTA" mcc="310" mnc="120" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />-->
